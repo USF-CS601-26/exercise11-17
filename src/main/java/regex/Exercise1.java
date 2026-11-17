@@ -15,7 +15,7 @@ public class Exercise1 {
      * @return res result
      */
     public static String moveNumbersToFront(String s) {
-        Pattern p = Pattern.compile(" ");
+        Pattern p = Pattern.compile(" "); // FILL IN regex
         Matcher matcher = p.matcher(s);
         StringBuffer res = new StringBuffer();
         // FILL IN CODE: repeatedly call matcher.find() and append the correct group to res
